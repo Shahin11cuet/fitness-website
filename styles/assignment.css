@@ -93,8 +93,9 @@
 }
 .banner-description{
  
-    font-size: 16px;
+    font-size: 10px;
     color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
 
 }
 
@@ -136,6 +137,7 @@
 
     font-weight: 800;
     font-size: 30px;
+    color: white;
 }
 
 .head-description{
@@ -154,9 +156,55 @@
     top: 250px;
     left: 200px;
     z-index: 1;
+    width: 100%;
 }
 .details-02{
 
     top: -150px;
-    right: 50px;    
+    right: 50px;   
+    width: 100%; 
+}
+
+.image-banner{
+   width: 100%;
+
+
+}
+/*Responsive Header*/
+
+@media screen and (max-width: 576px) {
+
+
+    .nav-display, .banner, .img-class{
+            flex-direction: column;
+        }
+}
+
+/*Main section*/
+
+.main-bg{
+
+  max-width: 1440px;
+  background-color: black;
+}
+.section-01{
+   text-align: center;
+
+}
+.mini-heads{
+      
+    font-weight: 800;
+    font-size: 18px;
+    color: azure;
+
+}
+.rounded-circle {
+    width: 180px; 
+    height: 180px;
+    border-radius: 50%;
+}
+.img-class{
+
+    display: flex;
+    justify-content: space-around;
 }
