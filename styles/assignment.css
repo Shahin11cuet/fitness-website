@@ -16,13 +16,14 @@
     display: flex;
     justify-content: space-around;
     background-color: black;
+    align-items: center;
 
 
 }
 .text01{
 
     font-style: italic;
-    font-size: 36;
+    font-size: 4rem;
     font-weight: bolder;
     color: rgba(230, 83, 60, 1);
 
@@ -65,11 +66,59 @@
     font-weight: 600;
     border-radius: 30px;
     padding: 5px 15px;
+}
 
-.navbar-bg{
+.navbar-bg,.banner{
 
    max-width: 1440px;
    margin: 0 auto;
+
+
+}
+/*banner Section*/
+.banner{
+
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #040404, #383737, black);
+}
+
+.banner-title{
+
+   font-size: 4.5rem;
+   font-weight: 900;
+   color: white;
+
+}
+.banner-description{
+ 
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.btn-01{
+
+      font-family: inherit;
+      font-weight: 700;
+      padding: 16px 46px;
+      border-style: none;
+      border-radius: 40px;
+      background-color: coral;
+
+
+}
+.btn-02{
+
+    font-family: inherit;
+    font-weight: 700;
+    color: white;
+    padding: 16px 46px;
+    border-color: azure;
+    border-radius: 40px;
+    background-color: rgb(3, 3, 3);
+    margin-left: 10px;
 
 
 }
