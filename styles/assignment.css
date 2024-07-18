@@ -7,3 +7,69 @@
   font-variation-settings:
     "slnt" 0;
 }
+
+/*Header Section*/
+
+/*navbar section*/
+.nav-display{
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+
+}
+.text01{
+
+    font-style: italic;
+    font-size: 36;
+    font-weight: bolder;
+    color: rgba(230, 83, 60, 1);
+
+}
+
+
+
+
+.border01{
+
+    border: 0.1px solid;
+    border-color: white;
+    display: flex;
+    border-radius: 36px;
+    align-items: center;
+    margin-top: 10px;
+    max-height: 40px;
+    max-width: 500px;
+    justify-content: space-around;
+
+
+}
+    
+    
+.items{
+
+    
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 5px;
+    color: white;
+    font-weight: 400;
+    margin: 28px;
+
+}
+.home-text{
+
+    background-color: rgba(230, 83, 60, 1);
+    border-style: none;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 5px 15px;
+
+.navbar-bg{
+
+   max-width: 1440px;
+   margin: 0 auto;
+
+
+}
