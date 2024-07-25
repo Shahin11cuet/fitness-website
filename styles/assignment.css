@@ -362,6 +362,15 @@
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
+.section-o4-bg2{
+
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
 
 .scn-4-head{
   margin: 30px;
@@ -379,7 +388,7 @@
     text-align: center;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-    
+    margin-bottom: 20px;
 
 
 }
@@ -411,6 +420,17 @@
 .input-editor-1{
     
     width: 22.375rem;
+    background-color:rgb(54, 54, 54);
+   border-radius: 8px;
+   border-style: none;
+   padding: 10px 10px;
+   margin: 10px 5px;
+   
+
+}
+.input-editor-2{
+    
+    width: 16rem;
     background-color:rgb(54, 54, 54);
    border-radius: 8px;
    border-style: none;
