@@ -7,6 +7,15 @@
   font-variation-settings:
     "slnt" 0;
 }
+
+
+
+.playwrite{
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .body-class{
 
      max-width: 1440px;
@@ -93,6 +102,7 @@
     justify-content: space-around;
     background-image: linear-gradient(to bottom, #040404, #383737, black);
     align-items: center;
+    margin-top: -100px;
 }
 
 .banner-title{
@@ -109,7 +119,6 @@
     margin-bottom: 20px;
 
 }
-
 
 .btn-01{
 
@@ -226,6 +235,10 @@
         .banner, .img-class, .section-02,.section-o4-bg,.footer-class,.footer-bg{
             flex-direction: column;
             justify-content: left;
+        }
+        .banner{
+
+            margin-top: 50px;
         }
         .items{
 
@@ -387,20 +400,33 @@
 .table{
 
     color: white;
-    border: 1px solid rgb(93, 93, 93);
+    
     text-align: center;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     margin-bottom: 20px;
 
 
 }
 .table-data{
 
-    font-size: 12px;
+    font-size: 13px;
     color: #929191;
 
 
+}
+table{
+
+    border-collapse: collapse;
+}
+table,th,td{
+
+    border: 1px solid rgba(113, 113, 113, 0.503);
+    padding: 10px 30px;
+
+}
+th{
+    font-size: 15px;
 }
 .sec-04-div-01{
 
@@ -433,7 +459,7 @@
 }
 .input-editor-2{
     
-    width: 16rem;
+    width: 25.4rem;
     background-color:rgb(54, 54, 54);
    border-radius: 8px;
    border-style: none;
