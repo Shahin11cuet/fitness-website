@@ -444,14 +444,26 @@ th{
    margin: 10px 5px;
 
 }
-.input-editor-1{
-    
-    width: 22.375rem;
+.input-editor-select{
+
     background-color:rgb(54, 54, 54);
    border-radius: 8px;
    border-style: none;
    padding: 10px 10px;
    margin: 10px 5px;
+   width: 183px;
+   color: #787777;
+
+}
+.input-editor-1{
+    
+    width: 23.7rem;
+    background-color:rgb(54, 54, 54);
+   border-radius: 8px;
+   border-style: none;
+   padding: 10px 10px;
+   margin: 10px 5px;
+   color: #787777;
    
 
 }

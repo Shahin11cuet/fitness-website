@@ -144,8 +144,23 @@
     <div ><input class="input-editor" type="number" placeholder="Height/cm">
     <input class="input-editor" type="number" placeholder="weight/kg"><br>
     <input class="input-editor" type="number" placeholder="Age">
-    <input class="input-editor" type="text" placeholder="Sex"><br>
-    <input class="input-editor-1" type="text" placeholder="Select an activity Factor"> <br>
+    <select required class="input-editor-select">
+      <option value="" disable selected hidden>Sex</option>
+      <option value="0">Male</option>
+      <option value="1">Female</option>
+      <option value="2">Non Binary</option>
+    </select>
+      
+      <br>
+    <select class="input-editor-1">
+      <option value="" disable selected hidden>Select an activity Factor</option>
+      <option value="0">Sedentary: little or no exercise</option>
+      <option value="1">Lightly active</option>
+      <option value="2">Moderately active</option>
+      <option value="3">Very active</option>
+
+
+    </select> <br>
     <button class="btn-03">Calculate</button></div>
     
      </div>
