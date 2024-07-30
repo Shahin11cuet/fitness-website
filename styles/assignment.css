@@ -268,6 +268,7 @@
             vertical-align: middle;
             margin: 20px 20px;
         }
+   
         .btn-04{
             width: 285px;
             margin-left: 13px;
@@ -278,6 +279,10 @@
            
             flex-direction: column;
             align-items: center;
+        }
+        .image-run{
+
+            object-fit: contain;
         }
         
         
@@ -352,12 +357,14 @@
 }
 .image-run{
     margin: 10px;
-    width: 100%;
+    
     max-width: 287px;
     height: 250px;
     border-style: none;
     border-radius: 16px;
-   
+    object-fit: none;
+    object-position: 66% 30%;
+
     
 
 }
@@ -510,6 +517,7 @@ th{
     height: 272px;
     border-radius: 10px;
     margin-left: 24px;
+    object-fit: cover;
 }
 .flex-container{
 
@@ -520,6 +528,8 @@ th{
  
     font-size: 10px;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: -10px;
+    margin-left: 10px;
 
 }
 .trainer-name{
@@ -527,6 +537,7 @@ th{
     font-weight: 800;
     font-size: 16px;
     color: white;
+    margin-left: 10px;
 }
 .position-index{
     position: relative;
